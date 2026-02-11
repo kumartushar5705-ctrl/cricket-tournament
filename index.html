@@ -3,48 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cricket Tournament - Schedule & Points</title>
+<title>Cricket Tournament 2026</title>
+
 <style>
-body{margin:0;font-family:Arial;background:#eef2f7}
-header{background:#1b5e20;color:white;padding:15px;text-align:center}
-.container{padding:20px}
-.card{background:white;padding:20px;margin:20px auto;border-radius:10px;max-width:1000px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
-table{width:100%;border-collapse:collapse;margin-top:15px}
-th,td{border:1px solid #ddd;padding:8px;text-align:center}
-th{background:#1b5e20;color:white}
-select{padding:8px;margin:10px 0;width:100%;max-width:300px}
-footer{text-align:center;padding:10px;background:#1b5e20;color:white;margin-top:20px}
+body{
+margin:0;
+font-family:Arial;
+background:#f2f2f2;
+}
+
+header{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.container{
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:8px;
+text-align:center;
+}
+
+th{
+background:#0d47a1;
+color:white;
+}
+
+footer{
+text-align:center;
+padding:10px;
+background:#eee;
+}
 </style>
 </head>
+
 <body>
 
 <header>
 <h1>Cricket Tournament 2026</h1>
-<p>Schedule & Points Table</p>
+<p>5 Day Tournament | 20 Teams</p>
 </header>
 
 <div class="container">
 
 <div class="card">
-<h2>Match Schedule (Team Wise)</h2>
-<select id="teamSelect" onchange="filterSchedule()"></select>
-<table>
-<thead>
-<tr>
-<th>Match No</th>
-<th>Team A</th>
-<th>Team B</th>
-<th>Date</th>
-</tr>
-</thead>
-<tbody id="scheduleTable"></tbody>
-</table>
+<h2>📅 Match Schedule</h2>
+
+<h3>Day 1</h3>
+<p>A vs B</p>
+<p>C vs D</p>
+<p>E vs F</p>
+<p>G vs H</p>
+
+<h3>Day 2</h3>
+<p>I vs J</p>
+<p>K vs L</p>
+<p>M vs N</p>
+<p>O vs P</p>
+
+<h3>Day 3</h3>
+<p>Q vs R</p>
+<p>S vs T</p>
+<p>A vs C</p>
+<p>B vs D</p>
+
+<h3>Day 4</h3>
+<p>E vs G</p>
+<p>F vs H</p>
+<p>I vs K</p>
+<p>J vs L</p>
+
+<h3>Day 5</h3>
+<p>Top 4 Semi Final 1</p>
+<p>Top 4 Semi Final 2</p>
+<p>Final Match</p>
+
 </div>
 
 <div class="card">
-<h2>Points Table</h2>
+<h2>🏏 Points Table</h2>
+
 <table>
-<thead>
 <tr>
 <th>Team</th>
 <th>Played</th>
@@ -52,97 +109,36 @@ footer{text-align:center;padding:10px;background:#1b5e20;color:white;margin-top:
 <th>Lost</th>
 <th>Points</th>
 </tr>
-</thead>
-<tbody id="pointsTable"></tbody>
+
+<tr><td>A</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>B</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>C</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>D</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>E</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>F</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>G</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>H</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>I</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>J</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>K</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>L</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>M</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>N</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>O</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>P</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Q</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>R</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>S</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>T</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+
 </table>
 </div>
 
 </div>
 
 <footer>
-© 2026 Tournament Managed by Nikhil Kumar
+© 2026 Cricket Tournament
 </footer>
-
-<script>
-
-const teams = [
-"Team 1","Team 2","Team 3","Team 4","Team 5",
-"Team 6","Team 7","Team 8","Team 9","Team 10",
-"Team 11","Team 12","Team 13","Team 14","Team 15",
-"Team 16","Team 17","Team 18","Team 19","Team 20"
-];
-
-// Dummy Schedule
-let schedule = [];
-let matchNo = 1;
-for(let i=0;i<teams.length;i+=2){
-if(teams[i+1]){
-schedule.push({
-match: matchNo,
-teamA: teams[i],
-teamB: teams[i+1],
-date: "01 March 2026"
-});
-matchNo++;
-}
-}
-
-// Dummy Points Data
-let points = teams.map(team => ({
-team: team,
-played: 0,
-won: 0,
-lost: 0,
-points: 0
-}));
-
-function loadTeams(){
-let select = document.getElementById("teamSelect");
-select.innerHTML = "<option value='All'>All Teams</option>";
-teams.forEach(team => {
-select.innerHTML += `<option value='${team}'>${team}</option>`;
-});
-}
-
-function loadSchedule(filteredTeam="All"){
-let table = "";
-schedule.forEach(match => {
-if(filteredTeam === "All" || match.teamA===filteredTeam || match.teamB===filteredTeam){
-table += `<tr>
-<td>${match.match}</td>
-<td>${match.teamA}</td>
-<td>${match.teamB}</td>
-<td>${match.date}</td>
-</tr>`;
-}
-});
-document.getElementById("scheduleTable").innerHTML = table;
-}
-
-function loadPoints(){
-let table="";
-points.forEach(team=>{
-table+=`<tr>
-<td>${team.team}</td>
-<td>${team.played}</td>
-<td>${team.won}</td>
-<td>${team.lost}</td>
-<td>${team.points}</td>
-</tr>`;
-});
-document.getElementById("pointsTable").innerHTML=table;
-}
-
-function filterSchedule(){
-let team = document.getElementById("teamSelect").value;
-loadSchedule(team);
-}
-
-loadTeams();
-loadSchedule();
-loadPoints();
-
-</script>
 
 </body>
 </html>
